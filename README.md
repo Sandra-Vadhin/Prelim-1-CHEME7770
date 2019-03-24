@@ -15,4 +15,4 @@ Solution can be found in .pdf, .docx, and .odt format with the title "VadhinProb
 2.	Instead of an atom matrix, a functional group matrix is contained in **Groups.dat**.
 3.	Execute the file **Balances.jl**
 
-		julia> include("Balances.jl")
+	julia> include("Balances.jl")
