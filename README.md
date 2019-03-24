@@ -5,7 +5,7 @@ Solution can be found in .pdf, .docx, and .odt format with the title "VadhinProb
 
 ## Problem 2a
 1. Edit line 13 of **VadhinProblem2A.jl** to the correct path to the ICT1.json file. 
-2. Enter the following command in the Julia REPL to generate the graph:
+2. Enter the following command in the Julia REPL to generate the graph as a .png:
 	
 		julia> include("VadhinProblem2A.jl")
  
@@ -16,3 +16,8 @@ Solution can be found in .pdf, .docx, and .odt format with the title "VadhinProb
 3. Execute the file **Balances.jl**
 
 		julia> include("Balances.jl")
+		
+### Protein Level vs. Inducer Concentration
+To generate the graph, run **Solve.jl** in the REPL. It should return a .png file.
+
+		julia> include("Solve.jl")
