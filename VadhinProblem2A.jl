@@ -9,7 +9,7 @@ time_step_size = 1.0*(1/60)
 simulation_case_flag = :default
 
 # default -
-path_to_model_file = "/home/sandra/Desktop/Prelim Problem 2/ICT1.json"
+path_to_model_file = "~PATH_TO_FILE~/ICT1.json"
 color_P1 = "red"
 color_P2 = "green"
 color_P3 = "blue"
@@ -51,4 +51,4 @@ plot(T*(60),X[:,6],label="P3",color_P3,linewidth=2, linestyle="-")
 xlabel("Time (min)", fontsize=16)
 ylabel("Protein (nmol/gDW)", fontsize=16)
 legend()
-savefig("turkey")
+savefig("Vadhin2A.png")
