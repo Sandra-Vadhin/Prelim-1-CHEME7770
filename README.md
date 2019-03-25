@@ -1,4 +1,5 @@
 # Prelim-1-CHEME7770
+Required packages: GRNSimKit, GLPK, PyCall, PyPlot, DifferentialEquations, LinearAlgebra
 
 ## Problem 1
 Solution can be found in .pdf, .docx, and .odt format with the title "VadhinProblem1".
