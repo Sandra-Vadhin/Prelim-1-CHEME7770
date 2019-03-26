@@ -37,7 +37,7 @@ To generate the graph, run **Solve.jl** in the REPL. It should return a .png fil
 		julia> include("Solve.jl")
 		
 ### Sensitivity
-Run **solve2.jl"** in the REPL and go to dual_value_array in the workspace
+**solveC2.jl"** returns a 9x1 array of zeros. This is consistent with the result from **Solve.jl**, where the dual array displayed zeros for b1-b9 and a 1 for v5.
 
-		julia> include("solve2.jl")
+		julia> include("solveC2.jl")
 		
