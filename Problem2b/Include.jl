@@ -1,5 +1,5 @@
 # External packages -
-#using DifferentialEquations
+using DifferentialEquations
 using LinearAlgebra
 using JSON
 using Optim
