@@ -9,6 +9,15 @@ Solution can be found in .pdf, .docx, and .odt format with the title "VadhinProb
 2. Enter the following command in the Julia REPL to generate the graph as a .png:
 	
 		julia> include("VadhinProblem2A.jl")
+## Problem 2b&c
+I edited GRNSimKit source code files so that the kinetics_array (represents the problem parameters) would be returned with each iteration, similar to how the states are returned in problem 2A.The solution for this problem needs to stay in its folder 2bc.
+svd() produces an error because I have NaN values in phase 1 and phase 3 matrices
+
+1. Edit line 13 of 2b.jl to the correct path to ICT1.json
+2. Enter the following command in the REPL:
+
+		julia> include("2b.jl")
+3. The 3 s_i,j and 3 SVD results should be generated.
  
 ## Problem 3
 ### Check Balances
