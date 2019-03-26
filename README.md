@@ -10,9 +10,13 @@ Solution can be found in .pdf, .docx, and .odt format with the title "VadhinProb
 	
 		julia> include("VadhinProblem2A.jl")
 ## Problem 2b&c
-I edited GRNSimKit source code files so that the kinetics_array (represents the problem parameters) would be returned with each iteration, similar to how the states are returned in problem 2A.The solution for this problem needs to stay in its folder 2bc.
+I edited GRNSimKit source code files so that the kinetics_array (represents the problem parameters) would be returned with each iteration, similar to how the states are returned in problem 2A.The solution for this problem needs to stay in its folder "Problem2b".
 svd() produces an error because I have NaN values in phase 1 and phase 3 matrices from partial derivatives being zero (division of 0/0).
 
+1. Change directory in the REPL (may require the full path)
+		
+		julia> cd("Problem2b")
+		
 1. Edit line 13 of 2b.jl to the correct path to ICT1.json
 2. Enter the following command in the REPL:
 
