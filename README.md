@@ -31,3 +31,9 @@ svd() produces an error because I have NaN values in phase 1 and phase 3 matrice
 To generate the graph, run **Solve.jl** in the REPL. It should return a .png file.
 
 		julia> include("Solve.jl")
+		
+### Sensitivity
+Run **solve2.jl"** in the REPL and go to dual_value_array in the workspace
+
+		julia> include("solve2.jl")
+		
