@@ -2,7 +2,7 @@
 Required packages: GRNSimKit, GLPK, PyCall, PyPlot, DifferentialEquations, LinearAlgebra, DelimitedFiles, JSON, Optim
 
 ## Problem 1
-Solution can be found in .pdf, .docx, and .odt format with the title "VadhinProblem1".
+Solution can be found in .pdf, .docx, and .odt format with the title "VadhinProblem1". PDF is the best option. Open in Microsoft Word at your own risk.
 
 ## Problem 2a
 1. Edit line 13 of **VadhinProblem2A.jl** to the correct path to the ICT1.json file. 
