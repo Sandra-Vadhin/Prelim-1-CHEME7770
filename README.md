@@ -12,6 +12,7 @@ Solution can be found in .pdf, .docx, and .odt format with the title "VadhinProb
 ## Problem 2b&c
 I edited GRNSimKit source code files so that the kinetics_array (represents the problem parameters) would be returned with each iteration, similar to how the states are returned in problem 2A.The solution for this problem needs to stay in its folder "Problem2b".
 svd() produces an error because I have NaN values in phase 1 and phase 3 matrices from partial derivatives being zero (division of 0/0).
+The **2b.jl** file collects the state and parameter arrays over the time range, computes s_i,j and the time-averaged sensitivity array, and attempts to use svd on the time-averaged sensitivity arrays. Errors occur because of division by zero and possibly because of using the wrong array, if I misunderstood what kinetics_array actually is. I could not rank the model species using column 1 of the U matrix for phase 2. Column 2 indicates that p6 is important in that column.
 
 1. Change directory in the REPL (may require the full path)
 		
